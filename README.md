@@ -10,6 +10,10 @@
 (<span>&#8224;</span>: corresponding author)
 </div>
 
+## Overview
+In this paper, we, for the first time, reduce the annotation cost to just ***a single frame*** per polyp video, regardless of the video's length. To this end, we introduce a new task, First-Frame Supervised Video Polyp Segmentation (FSVPS),
+and propose a novel Propagative and Semantic Dual-Teacher Network (PSDNet). Specifically, PSDNet adopts a teacher-student framework but employs two distinct types of teachers: the propagative teacher and the semantic teacher. The propagative teacher is a universal object tracker that propagates the first-frame annotation to subsequent frames as pseudo labels. However, tracking errors may accumulate over time, gradually degrading the pseudo labels and misguiding the student model. To address this, we introduce the semantic teacher, an exponential moving average of the student model, which produces more stable and time-invariant pseudo labels. PSDNet merges the pseudo labels from both teachers using a carefully-designed back-propagation strategy. This strategy assesses the quality of the pseudo labels
+by tracking them backward to the first frame. High-quality pseudo labels are more likely to spatially align with the firstframe annotation after this backward tracking, ensuring more accurate teacher-to-student knowledge transfer and improved segmentation performance. 
 
 <p align="center">
     <img src="figs/overview.jpg"/> <br />
