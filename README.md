@@ -8,9 +8,6 @@
 <sup>1</sup>  WNLO, HUST,  <sup>2</sup> HUST Tongji Medical College
 <br>
 (<span>&#8224;</span>: corresponding author)
-<div>
-<a href="https://arxiv.org/abs/2210.05174">[arXiv Preprint (Camera Ready)]</a>
-</div>
 </div>
 
 
