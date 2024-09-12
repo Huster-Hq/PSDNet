@@ -23,9 +23,13 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 
 
 ## Performance
+
+### Quantitative Comparisons
 <p align="center">
     <img src="figs/results0.jpg"/> <br />
 </p>
+
+### Qualitative Comparisons
 <p align="center">
     <img src="figs/results1.jpg"/> <br />
 </p>
