@@ -18,15 +18,14 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 <p align="center">
     <img src="figs/overview.jpg"/> <br />
 </p>
-</div>
-</div>
 
 ## Models
 
 
 ## Performance
 <p align="center">
-    <img src="figs/results.jpg"/> <br />
+    <img src="figs/results0.jpg"/> <br />
 </p>
-</div>
-</div>
+<p align="center">
+    <img src="figs/results1.jpg"/> <br />
+</p>
