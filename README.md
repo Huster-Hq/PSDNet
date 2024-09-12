@@ -33,3 +33,7 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 <p align="center">
     <img src="figs/results1.jpg"/> <br />
 </p>
+
+
+## Acknowledgments
+Thanks [XMem](https://github.com/hkchengrex/XMem) for the implementation of an efficient universal video object segmentaion, which is used as the propagative teacher model in this work.
