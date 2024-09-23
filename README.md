@@ -48,6 +48,7 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 
 #### 1. Install dependencies for SALI.
 ```bash
+cd PSDNet
 # Install other dependent packages
 pip install -r requirements.txt
 
