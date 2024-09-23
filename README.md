@@ -20,7 +20,7 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 </p>
 
 ## Models
-### SUN-SEG Video Polyp Segmentation (VPS)
+### 1. SUN-SEG Video Polyp Segmentation (VPS)
 
 | Model | Backbone | Seen-Easy (Dice) | Seen-Hard (Dice) | Unseen-Easy (Dice) | Unseen-Hard (Dice) | Weights |
 | :---- | :------: | :------: |:--:| :---------------: | :-----: | :-: |
@@ -28,7 +28,7 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 
 ## Performance on [SUN-SEG](https://github.com/GewelsJI/VPS)
 
-### Quantitative Comparisons
+### 2. Quantitative Comparisons
 <p align="center">
     <img src="figs/results0.jpg"/> <br />
 </p>
