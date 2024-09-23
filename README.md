@@ -20,7 +20,11 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 </p>
 
 ## Models
+### SUN-SEG Video Polyp Segmentation (VPS)
 
+| Model | Backbone | Seen-Easy (Dice) | Seen-Hard (Dice) | Unseen-Easy (Dice) | Unseen-Hard (Dice) | Weights |
+| :---- | :------: | :------: |:--:| :---------------: | :-----: | :-: |
+| PSDNet | [PVT](https://github.com/hustvl/BoxTeacher/releases/download/v1.0/R-50.pkl)  | 0.900 | 0.860 | 0.798 | 0.806 |  [ckpts](https://github.com/hustvl/BoxTeacher/releases/download/v1.1/boxteacher_r50_1x.log) |
 
 ## Performance on [SUN-SEG](https://github.com/GewelsJI/VPS)
 
