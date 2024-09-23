@@ -39,5 +39,43 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 </p>
 
 
+## Quick start
+### - Preliminaries
+- Python 3.8+
+- PyTorch 1.9+ 
+- TorchVision corresponding to the PyTorch version
+- NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+
+#### 1. Install dependencies for SALI.
+```bash
+# Install other dependent packages
+pip install -r requirements.txt
+
+# Install cuda extensions for FA
+cd lib/ops_align
+python setup.py build develop
+cd ../..
+```
+
+#### 2. Prepare the datasets for SALI.
+Please refer to [PNS+](https://github.com/GewelsJI/VPS/blob/main/docs/DATA_DESCRIPTION.md) to get access to the SUN-SEG dataset, and download it to path `./datasets`. The path structure should be as follows:
+```none
+  SALI
+  ├── datasets
+  │   ├── SUN-SEG
+  │   │   ├── TestEasyDataset
+  │   │   │   ├── Seen
+  │   │   │   ├── Unseen
+  │   │   ├── TestHardDataset
+  │   │   │   ├── Seen
+  │   │   │   ├── Unseen
+  │   │   ├── TrainDataset
+  ```
+
+### - Testing
+```bash
+python test_video.py
+```
+
 ## Acknowledgments
 Thanks [XMem](https://github.com/hkchengrex/XMem) for the implementation of an efficient universal video object segmentaion, which is used as the propagative teacher model in this work.
