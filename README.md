@@ -24,7 +24,7 @@ by tracking them backward to the first frame. High-quality pseudo labels are mor
 
 | Model | Backbone | Seen-Easy (Dice) | Seen-Hard (Dice) | Unseen-Easy (Dice) | Unseen-Hard (Dice) | Weights |
 | :---- | :------: | :------: |:--:| :---------------: | :-----: | :-: |
-| PSDNet | [PVT](https://github.com/hustvl/BoxTeacher/releases/download/v1.0/R-50.pkl)  | 0.900 | 0.860 | 0.798 | 0.806 |  [ckpts](https://github.com/hustvl/BoxTeacher/releases/download/v1.1/boxteacher_r50_1x.log) |
+| PSDNet | [PVT](https://drive.google.com/file/d/1U77oKKK_qik2C0fd7hSKiYG43UA25GgD/view)  | 0.900 | 0.860 | 0.798 | 0.806 |  [ckpts](https://github.com/Huster-Hq/PSDNet/releases/download/untagged-9a1b35db60def0c15641/PSDNet.pth) |
 
 ## Performance on [SUN-SEG](https://github.com/GewelsJI/VPS)
 
