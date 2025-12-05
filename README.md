@@ -85,10 +85,12 @@ Thanks [XMem](https://github.com/hkchengrex/XMem) for the implementation of an e
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil: :
 
 ```BibTeX
-@article{hu2024first,
-  title={First-frame Supervised Video Polyp Segmentation via Propagative and Semantic Dual-teacher Network},
-  author={Hu, Qiang and Liu, Mei and Li, Qiang and Wang, Zhiwei},
-  journal={arXiv preprint arXiv:2412.16503},
-  year={2024}
+@inproceedings{zhou2025targeted,
+  title={Targeted False Positive Synthesis via Detector-Guided Adversarial Diffusion Attacker for Robust Polyp Detection},
+  author={Zhou, Quan and Luo, Gan and Hu, Qiang and Zhang, Qingyong and Zhang, Jinhua and Tian, Yinjiao and Li, Qiang and Wang, Zhiwei},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={593--602},
+  year={2025},
+  organization={Springer}
 }
 ```
